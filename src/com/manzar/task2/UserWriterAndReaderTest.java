@@ -6,7 +6,7 @@ public class UserWriterAndReaderTest {
     public static void main(String[] args) {
         List<User> users = UserFileReader.readUsersFromFile();
         users.stream().forEach(System.out::println);
-        UserJsonWriter.createAndFillUserJson(users);
+        UserJsonWriter.fillUserJson(users);
 
     }
 }

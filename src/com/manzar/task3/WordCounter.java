@@ -17,7 +17,7 @@ public class WordCounter {
     public static final String FILE_NAME = "files/words.txt";
     public static final String NON_WORDS = "[^a-zA-Z]";
     public static final String WHITESPACE = " ";
-    public static final String NEW_LINE = "\n";
+    public static final String NEW_LINE = System.lineSeparator();
 
     private WordCounter() {
     }
